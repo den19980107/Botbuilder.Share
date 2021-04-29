@@ -1,5 +1,16 @@
 import { ConditionOperator, ColumnDataType, HttpMethods, NodeType } from './constants'
 
+// interface
+import {
+    ConditionNodePayload,
+    DeclarVariableNodePayload,
+    FetchDataNodePayload,
+    HttpResponseNodePayload,
+    InsertRowNodePayload,
+    ScheduleNodePayload,
+    WebHookNodePayload
+} from './nodePayload'
+
 const Constants = {
     ConditionOperator,
     ColumnDataType,
@@ -7,7 +18,13 @@ const Constants = {
     NodeType
 }
 
-
 export {
-    Constants
+    Constants,
+    ConditionNodePayload,
+    DeclarVariableNodePayload,
+    FetchDataNodePayload,
+    HttpResponseNodePayload,
+    InsertRowNodePayload,
+    ScheduleNodePayload,
+    WebHookNodePayload
 }

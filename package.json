@@ -1,12 +1,12 @@
 {
   "name": "botbuilder-share",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "share tool between botbuilder ui and botbuilder",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf ./lib && tsc"
   },
   "author": "",
   "license": "ISC",
