@@ -1,4 +1,8 @@
+// constants
 import { ConditionOperator, ColumnDataType, HttpMethods, NodeType } from './constants'
+
+// internalMethods
+import { castToBool, castToNumber, castToString, getLength, JsonStringify } from './internalMethods'
 
 // interface
 import {
@@ -18,8 +22,17 @@ const Constants = {
     NodeType
 }
 
+const internalMethods = {
+    castToBool,
+    castToString,
+    castToNumber,
+    getLength,
+    JsonStringify
+}
+
 export {
     Constants,
+    internalMethods,
     ConditionNodePayload,
     DeclarVariableNodePayload,
     FetchDataNodePayload,
