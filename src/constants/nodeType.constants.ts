@@ -10,7 +10,8 @@ enum NodeType {
     DELAY = "DELAY",
     SEND_EMAIL = "SEND_EMAIL",
     HTML_RESPONSE = "HTML_RESPONSE",
-    INSERT_ROW = "INSERT_ROW"
+    INSERT_ROW = "INSERT_ROW",
+    REDIRECT = "REDIRECT"
 }
 
 export default NodeType

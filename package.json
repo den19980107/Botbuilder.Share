@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-share",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "share tool between botbuilder ui and botbuilder",
   "main": "lib/index.js",
   "module": "lib/index.js",
