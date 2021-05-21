@@ -12,7 +12,8 @@ import {
     HttpResponseNodePayload,
     InsertRowNodePayload,
     ScheduleNodePayload,
-    WebHookNodePayload
+    WebHookNodePayload,
+    RedirectNodePayload
 } from './nodePayload'
 
 const Constants = {
@@ -39,5 +40,6 @@ export {
     HttpResponseNodePayload,
     InsertRowNodePayload,
     ScheduleNodePayload,
-    WebHookNodePayload
+    WebHookNodePayload,
+    RedirectNodePayload
 }
