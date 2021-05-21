@@ -6,4 +6,5 @@ export interface FetchDataNodePayload {
         [keys: string]: string;
     };
     storeDataAt: string;
+    postInForm: boolean;
 }
