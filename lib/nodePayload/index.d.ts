@@ -6,4 +6,5 @@ import { InsertRowNodePayload } from './insertRow.node.payload';
 import { ScheduleNodePayload } from './schedule.node.payload';
 import { WebHookNodePayload } from './webhook.node.payload';
 import { RedirectNodePayload } from './redirect.node.payload';
-export { ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload };
+import { ScriptMoudleNodePayload } from './scriptMoudle.node.payload';
+export { ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload, ScriptMoudleNodePayload };

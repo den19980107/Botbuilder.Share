@@ -1,5 +1,5 @@
 import { ConditionOperator, ColumnDataType, HttpMethods, NodeType } from './constants';
-import { ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload } from './nodePayload';
+import { ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload, ScriptMoudleNodePayload } from './nodePayload';
 declare const Constants: {
     ConditionOperator: typeof ConditionOperator;
     ColumnDataType: typeof ColumnDataType;
@@ -36,4 +36,4 @@ declare const internalMethods: {
         };
     };
 };
-export { Constants, internalMethods, ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload };
+export { Constants, internalMethods, ConditionNodePayload, DeclarVariableNodePayload, FetchDataNodePayload, HttpResponseNodePayload, InsertRowNodePayload, ScheduleNodePayload, WebHookNodePayload, RedirectNodePayload, ScriptMoudleNodePayload };

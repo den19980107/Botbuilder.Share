@@ -11,6 +11,9 @@ declare enum NodeType {
     SEND_EMAIL = "SEND_EMAIL",
     HTML_RESPONSE = "HTML_RESPONSE",
     INSERT_ROW = "INSERT_ROW",
-    REDIRECT = "REDIRECT"
+    REDIRECT = "REDIRECT",
+    MOUDLE_START = "MOUDLE_START",
+    MOUDLE_END = "MOUDLE_END",
+    SCRIPT_MOUDLE = "SCRIPT_MOUDLE"
 }
 export default NodeType;
